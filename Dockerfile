@@ -1,4 +1,4 @@
-FROM tomcat-varnish
+FROM secoresearch/tomcat-varnish
 USER 0
 
 ENV PATH_PUBBY_WEBAPP "$PATH_WEBAPPS/pubby"
