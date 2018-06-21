@@ -1,7 +1,7 @@
 FROM secoresearch/tomcat-varnish
 USER 0
 
-ENV PATH_PUBBY_WEBAPP "$PATH_WEBAPPS/pubby"
+ENV PATH_PUBBY_WEBAPP "$PATH_WEBAPP_ROOT"
 
 RUN apt-get install -y unzip
 WORKDIR /tmp
