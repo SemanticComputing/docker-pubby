@@ -1,1 +1,1 @@
-docker build --no-cache -t pubby .
+docker build --pull --no-cache -t pubby .
