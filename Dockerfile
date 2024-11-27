@@ -25,7 +25,6 @@ RUN rm -r "$PATH_PUBBY_WEBAPP"
 
 WORKDIR /tmp
 RUN mv -T pubby-0.3.3/webapp "$PATH_PUBBY_WEBAPP"
-RUN cp -R pubby-0.3.3/* "$PATH_WEBAPPS"
 RUN rm -rf tmp/*
 RUN apt-get remove -y unzip
 
