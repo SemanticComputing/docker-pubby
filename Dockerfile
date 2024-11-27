@@ -1,4 +1,4 @@
-FROM secoresearch/tomcat-varnish
+FROM secoresearch/tomcat-varnish:tomcat-7
 USER 0
 
 ENV PATH_PUBBY_WEBAPP "$PATH_WEBAPP_ROOT"
