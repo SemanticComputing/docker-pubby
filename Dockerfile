@@ -26,6 +26,5 @@ RUN rm -r "$PATH_PUBBY_WEBAPP"
 WORKDIR /tmp
 RUN mv -T pubby-0.3.3/webapp "$PATH_PUBBY_WEBAPP"
 RUN rm -rf pubby*
-RUN apt-get remove -y unzip
 
 USER 10001
